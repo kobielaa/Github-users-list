@@ -1,0 +1,27 @@
+span {
+    cursor: pointer;
+}
+img {
+    width: 50%;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    display: inline;
+}
+.search {
+    margin: 20px 0;
+    display: flex;
+}
+input{
+    display: inline-block !important;
+    flex-grow:1;
+}
+.users-load {
+    width:100px;
+}
+.list-group-item>div{
+    display: none;
+    text-align: center;
+}
