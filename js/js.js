@@ -18,7 +18,7 @@
    });
  }
  // Pobranie userow a nastepnie wyswietlenie ich
- (function renderNextUsers() {
+ function renderNextUsers() {
    // Wykonanie requestu
    getUsers(position)
      // W momencie kiedy request jest successem wykonuje sie funkcja wewnatrz .then()
@@ -29,9 +29,9 @@
      });
    // Zmiana pozycji na ktorej jestesmy
    position = position + 30;
- })();
+ };
 
-
+renderNextUsers();
 
 function removeChild() {
   $container.children().remove()
